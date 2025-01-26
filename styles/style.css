@@ -20,6 +20,8 @@ body {
     background-color: var(--primary-bg-color);
     color: #333;
     line-height: 1.6;
+    min-height: 100vh;
+    min-height: 100dvh;
     /* padding-top: 60px; */
     overflow-x: hidden;
     /* For fixed header */
@@ -34,17 +36,15 @@ header {
 
 .navbar {
     background-color: var(--header-footer-color);
-    padding: 10px 30px;
+    padding: 1rem 2rem;
     font-family: 'Arial', sans-serif;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-}
-
-.navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .navbar-logo {
     text-decoration: none;
@@ -83,7 +83,7 @@ header {
     color: var(--secondary-text-color);
 }
 
-/* Dropdown Section  */
+/* Dropdown Section 
 .navbar-links .dropdown {
     position: relative;
 }
@@ -108,21 +108,25 @@ header {
 .navbar-links .dropdown-content a {
     padding: 10px;
     font-size: 1em;
-}
+} */
 
 /* Hamburger */
-.navbar-hamburger {
+#open-sidebar-button {
     display: none;
+    background: none;
+    border: none;
+    padding: 1rem;
+    margin-left: auto;
     cursor: pointer;
-    flex-direction: column;
-    gap: 5px;
 }
 
-.navbar-hamburger .line {
-    width: 25px;
-    height: 4px;
-    background-color: var(--primary-bg-color);
-    transition: all 0.3s ease;
+#close-sidebar-button {
+    display: none;
+    background: none;
+    border: none;
+    padding: 1rem;
+    /* margin-left: auto; */
+    cursor: pointer;
 }
 
 

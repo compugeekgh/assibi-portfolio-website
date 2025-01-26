@@ -1,19 +1,30 @@
-const blogPosts = document.querySelectorAll(".blog-post");
 const portfolioItems = document.querySelectorAll(".portfolio-item");
 const modals = document.querySelectorAll(".portfolio-modal");
 const closeButtons = document.querySelectorAll(".close");
+const navbar = document.querySelector(".navbar");
 
 let currentIndex = 0;
 const testimonials = document.querySelectorAll(".testimonial");
 const totalTestimonials = testimonials.length;
 
-// Example for handling form submission (if needed in the future)
-// document
-//   .querySelector(".contact-button")
-//   .addEventListener("click", function (event) {
-//     event.preventDefault();
-//     alert("Thank you for getting in touch! I will respond soon.");
-//   });
+// Toggle Navbar Menu on Mobile
+function openSidebar() {
+  navbar.classList.add("show");
+  console.log(navbar);
+}
+
+function closeSidebar() {
+  navbar.classList.remove("show");
+  console.log(navbar);
+}
+
+// Smooth scroll to the top of the page
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
 
 // Open modal when portfolio item is clicked
 portfolioItems.forEach((item) => {
@@ -85,45 +96,30 @@ document
     }
   });
 
-document
-  .getElementById("newsletter-form")
-  .addEventListener("submit", function (event) {
-    const newsletterEmail = document.getElementById("newsletter-email").value;
+// document
+//   .getElementById("newsletter-form")
+//   .addEventListener("submit", function (event) {
+//     const newsletterEmail = document.getElementById("newsletter-email").value;
 
-    if (!newsletterEmail) {
-      alert("Please enter your email to subscribe.");
-      event.preventDefault(); // Prevent form submission
-    }
-  });
+//     if (!newsletterEmail) {
+//       alert("Please enter your email to subscribe.");
+//       event.preventDefault(); // Prevent form submission
+//     }
+//   });
 
 // Animate blog posts on scroll into view
+// const observer = new IntersectionObserver(
+//   (entries, observer) => {
+//     entries.forEach((entry) => {
+//       if (entry.isIntersecting) {
+//         entry.target.classList.add("animate");
+//         observer.unobserve(entry.target);
+//       }
+//     });
+//   },
+//   { threshold: 0.5 }
+// );
 
-const observer = new IntersectionObserver(
-  (entries, observer) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("animate");
-        observer.unobserve(entry.target);
-      }
-    });
-  },
-  { threshold: 0.5 }
-);
-
-blogPosts.forEach((post) => {
-  observer.observe(post);
-});
-
-// Toggle Navbar Menu on Mobile
-function toggleMenu() {
-  const navLinks = document.querySelector(".navbar-links");
-  navLinks.classList.toggle("active");
-}
-
-// Smooth scroll to the top of the page
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-}
+// blogPosts.forEach((post) => {
+//   observer.observe(post);
+// });

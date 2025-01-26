@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assibi's Seamstress Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mediaquery.css">
+    <link rel="stylesheet" href="./styles/all.min.css">
+    <link rel="stylesheet" href="./styles/fontawesome.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <!-- Logo -->
+                <a href="#" class="navbar-logo">
+                    AssiBi<span>Creation</span>
+                </a>
+
+                <!-- Nav Links -->
+                <ul class="navbar-links">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Blog</a>
+                        <div class="dropdown-content">
+                            <a href="#">Latest Articles</a>
+                            <a href="#">How-To Guides</a>
+                        </div> -->
+                    </li>
+                </ul>
+
+                <!-- Hamburger Menu for Mobile -->
+                <div class="navbar-hamburger" onclick="toggleMenu()">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- hero section -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Welcome to Assibi Bilabina's Seamstress Portfolio</h1>
+                <p>Crafting Custom Garments with Passion and Precision</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank" class="social-icon"><i
+                            class="fab fa-instagram fa-3x"></i></a>
+                    <a href="https://facebook.com" target="_blank" class="social-icon"><i
+                            class="fab fa-facebook fa-3x"></i></a>
+                    <a href="https://pinterest.com" target="_blank" class="social-icon"><i
+                            class="fab fa-twitter fa-3x"></i></a>
+                    <a href="https://pinterest.com" target="_blank" class="social-icon"><i
+                            class="fab fa-youtube fa-3x"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- about me section -->
+        <section id="about">
+            <div class="about-container">
+                <div class="about-profile">
+                    <img src="./assets/images/profile-image.jpg" alt="Assibi Bilabina" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I’m Assibi, a professional seamstress with a passion for crafting custom garments and
+                        designs
+                        that blend style, comfort, and individuality. With 13 years of experience in sewing, tailoring,
+                        and
+                        creative design, I specialize in making dreams come to life through fabric and thread. Whether
+                        it’s
+                        altering a favorite outfit, creating a bespoke dress, or designing unique home décor, I’m
+                        dedicated
+                        to
+                        delivering quality craftsmanship and exceptional service.</p>
+                    <div class="skills">
+                        <h3>Skills & Expertise</h3>
+                        <ul>
+                            <li>Sewing & Tailoring</li>
+                            <li>Custom Garment Design</li>
+                            <li>Embroidery Techniques</li>
+                            <li>Alterations & Repairs</li>
+                            <li>Bridal & Formal Wear</li>
+                            <li>Home Décor Design</li>
+                        </ul>
+                    </div>
+                    <p class="unique-approach">I pride myself on delivering tailored solutions that exceed expectations.
+                        Every
+                        project I take on is personal to me, and I aim to create pieces that truly reflect my clients'
+                        unique
+                        style and personality.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- services section -->
+
+        <section id="services">
+            <h2>My Services</h2>
+            <p>Explore the variety of custom services I offer, designed to meet your unique needs and preferences.</p>
+            <div class="services-container">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="fas fa-sewing-machine"></i> <!-- Example icon (FontAwesome) -->
+                    </div>
+                    <h3>Custom Garments</h3>
+                    <p>Tailor-made dresses, suits, and outfits for special occasions. Everyday wear designed to fit you
+                        perfectly.</p>
+                    <a href="#custom-garments" class="btn">Learn More</a>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="fas fa-scissors"></i> <!-- Example icon (FontAwesome) -->
+                    </div>
+                    <h3>Alterations & Repairs</h3>
+                    <p>Adjustments for the perfect fit. Repairs for well-loved garments to give them a new lease on
+                        life.
+                    </p>
+                    <a href="#alterations" class="btn">Learn More</a>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="fas fa-ring"></i> <!-- Example icon (FontAwesome) -->
+                    </div>
+                    <h3>Bridal & Formal Wear</h3>
+                    <p>Custom wedding dresses and bridesmaid gowns. Tailored suits and evening wear for formal events.
+                    </p>
+                    <a href="#bridal-formal" class="btn">Learn More</a>
+                </div>
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="fas fa-couch"></i> <!-- Example icon (FontAwesome) -->
+                    </div>
+                    <h3>Home Décor</h3>
+                    <p>Custom curtains, cushions, and other home textiles designed to elevate your living space.</p>
+                    <a href="#home-decor" class="btn">Learn More</a>
+                </div>
+                <!-- Service Card 5 -->
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="fas fa-pen"></i> <!-- Example icon (FontAwesome) -->
+                    </div>
+                    <h3>Embroidery</h3>
+                    <p>Personalized embroidery designs for clothing, accessories, and gifts.</p>
+                    <a href="#embroidery" class="btn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2>My Portfolio</h2>
+            <p>Take a look at some of my recent projects and creations.</p>
+            <div class="portfolio-container">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item" data-modal="modal1">
+                    <img src="./assets/images/client-one.jpg" alt="Wedding Dress">
+                    <div class="overlay">
+                        <h3>Bridal Gown</h3>
+                        <p>A custom wedding dress created with intricate lace and beading details.</p>
+                    </div>
+                </div>
+
+                <!-- Modal 1 -->
+                <div class="portfolio-modal" id="modal1">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="./assets/images/client-one.jpg" alt="Bridal Gown" class="modal-img">
+                        <h3>Bridal Gown</h3>
+                        <p>A custom wedding dress created with intricate lace and beading details.</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item" data-modal="modal2">
+                    <img src="./assets/images/client-three.jpg" alt="Casual Outfit">
+                    <div class="overlay">
+                        <h3>Casual Outfit</h3>
+                        <p>Handmade casual wear designed for everyday comfort and style.</p>
+                    </div>
+                </div>
+
+                <!-- Modal 2 -->
+                <div class="portfolio-modal" id="modal2">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="./assets/images/client-three.jpg" alt="Casual Outfit" class="modal-img">
+                        <h3>Casual Outfit</h3>
+                        <p>Handmade casual wear designed for everyday comfort and style.</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item" data-modal="modal3">
+                    <img src="./assets/images/client-two.jpg" alt="Altered Dress">
+                    <div class="overlay">
+                        <h3>Altered Dress</h3>
+                        <p>Before and after alterations to make the perfect fit for the client.</p>
+                    </div>
+                </div>
+
+                <!-- Modal 3 -->
+                <div class="portfolio-modal" id="modal3">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="./assets/images/client-two.jpg" alt="Altered Dress" class="modal-img">
+                        <h3>Altered Dress</h3>
+                        <p>Before and after alterations to make the perfect fit for the client.</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item" data-modal="modal4">
+                    <img src="./assets/images/embroidery.jpg" alt="Home Décor">
+                    <div class="overlay">
+                        <h3>Embroidery</h3>
+                        <p>Custom-made Embroidery for casual outfit for both men and women.</p>
+                    </div>
+                </div>
+
+                <!-- Modal 4 -->
+                <div class="portfolio-modal" id="modal4">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="./assets/images/embroidery.jpg" alt="Home Décor" class="modal-img">
+                        <h3>Embroidery</h3>
+                        <p>Custom-made Embroidery for casual outfit for both men and women.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section id="testimonials">
+            <h2>What My Clients Say</h2>
+            <p>Don't just take my word for it—here's what my happy clients have to say about my work!</p>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <div class="client-info">
+                        <img src="./assets/images/client-one.jpg" alt="Client 1" class="client-img">
+                        <h3>Client Name 1</h3>
+                        <p class="client-role">Bride</p>
+                    </div>
+                    <p class="testimonial-text">
+                        “I had the most amazing experience working with Assibi. My wedding dress was exactly what I
+                        dreamed
+                        of—perfectly tailored and unique. The attention to detail was unmatched. Thank you so much for
+                        making my
+                        big day even more special!”
+                    </p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="client-info">
+                        <img src="./assets/images/client-three.jpg" alt="Client 2" class="client-img">
+                        <h3>Client Name 2</h3>
+                        <p class="client-role">Customer</p>
+                    </div>
+                    <p class="testimonial-text">
+                        “I brought in a dress that didn’t fit quite right, and Assibi made it look like it was made
+                        just
+                        for me. The service was excellent, and the result exceeded my expectations. I’ll definitely be
+                        back for
+                        more!”
+                    </p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="client-info">
+                        <img src="./assets/images/client-two.jpg" alt="Client 3" class="client-img">
+                        <h3>Client Name 3</h3>
+                        <p class="client-role">Embroidery</p>
+                    </div>
+                    <p class="testimonial-text">
+                        “The custom curtains Assibi made for my living room are stunning. They completely
+                        transformed the
+                        space! I couldn't be happier with the final result. Highly recommend for all your tailoring and
+                        home
+                        décor needs.”
+                    </p>
+                </div>
+
+                <!-- Add more testimonials as needed -->
+            </div>
+
+            <div class="testimonial-nav">
+                <button id="prev" class="nav-button">❮</button>
+                <button id="next" class="nav-button">❯</button>
+            </div>
+        </section>
+
+        <!-- Why Choose Me -->
+        <!-- <section id="why-choose-me" class="why-choose-me">
+            <div class="container">
+                <h2>Why Choose Me?</h2>
+                <p class="section-description">Here are some reasons why I stand out as your ideal seamstress for all
+                    your
+                    tailoring and design needs.</p>
+
+                <div class="choose-me-grid">
+                    <div class="choose-me-item">
+                        <div class="icon">
+                            <img src="path-to-icon/personalized.svg" alt="Personalized Service" />
+                        </div>
+                        <h3>Personalized Service</h3>
+                        <p>I take the time to understand your needs and preferences to create something uniquely yours.
+                        </p>
+                    </div>
+                    <div class="choose-me-item">
+                        <div class="icon">
+                            <img src="path-to-icon/attention-to-detail.svg" alt="Attention to Detail" />
+                        </div>
+                        <h3>Attention to Detail</h3>
+                        <p>Every stitch matters. I pride myself on delivering flawless craftsmanship.</p>
+                    </div>
+                    <div class="choose-me-item">
+                        <div class="icon">
+                            <img src="path-to-icon/affordable-pricing.svg" alt="Affordable Pricing" />
+                        </div>
+                        <h3>Affordable Pricing</h3>
+                        <p>High-quality work at competitive rates.</p>
+                    </div>
+                    <div class="choose-me-item">
+                        <div class="icon">
+                            <img src="path-to-icon/quick-turnaround.svg" alt="Quick Turnaround" />
+                        </div>
+                        <h3>Quick Turnaround</h3>
+                        <p>I value your time and strive to meet your deadlines.</p>
+                    </div>
+                    <div class="choose-me-item">
+                        <div class="icon">
+                            <img src="path-to-icon/passion.svg" alt="Passion for Excellence" />
+                        </div>
+                        <h3>Passion for Excellence</h3>
+                        <p>Sewing isn’t just a job for me; it’s my passion to create the best results for you.</p>
+                    </div>
+                </div> -->
+
+        <!-- Take Me Home Button -->
+        <button class="take-me-home" onclick="scrollToTop()">Home</button>
+        </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Let's collaborate! I’d love to hear from you and discuss how I can bring your ideas to life. Please fill
+                out the
+                form below, or reach me via email or phone.</p>
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <form id="contact-form" action="submit_form.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Newsletter Section -->
+            <!-- <div class="newsletter-container">
+                <h3>Stay in the Loop!</h3>
+                <p>Subscribe to my newsletter for updates on new designs, offers, and more.</p>
+                <form id="newsletter-form" action="subscribe_newsletter.php" method="POST">
+                    <div class="form-group">
+                        <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Enter your email"
+                            required>
+                        <button type="submit" class="newsletter-btn">Subscribe</button>
+                    </div>
+                </form>
+            </div> -->
+
+            <!-- Studio Location / Map (Optional) -->
+            <div id="map">
+                <!-- Google Map Embed or Custom Map Here -->
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+
+        <!-- Blog Section -->
+        <!-- <section id="blog">
+            <h2>Latest Articles</h2>
+            <p>Stay updated with my latest posts on tailoring, design tips, and more.</p> -->
+
+        <!-- Blog Post Previews -->
+        <!-- <div class="blog-posts">
+                <article class="blog-post">
+                    <img src="path-to-image1.jpg" alt="Blog Post 1">
+                    <h3>5 Tips for Finding the Perfect Tailored Outfit</h3>
+                    <p class="excerpt">Tailoring can transform your look. Here are five tips for finding the perfect
+                        outfit
+                        tailored just for you...</p>
+                    <a href="#" class="read-more-btn">Read More</a>
+                </article>
+                <article class="blog-post">
+                    <img src="path-to-image2.jpg" alt="Blog Post 2">
+                    <h3>How to Care for Your Custom Garments</h3>
+                    <p class="excerpt">Custom garments require special care. In this post, I’ll share tips on how to
+                        keep your
+                        tailor-made clothes looking pristine...</p>
+                    <a href="#" class="read-more-btn">Read More</a>
+                </article>
+                <article class="blog-post">
+                    <img src="path-to-image3.jpg" alt="Blog Post 3">
+                    <h3>The Magic of Handmade Home Décor</h3>
+                    <p class="excerpt">Handmade home décor items can add a unique touch to your space. Let me show you
+                        how to
+                        make your home feel special with custom pieces...</p>
+                    <a href="#" class="read-more-btn">Read More</a>
+                </article>
+            </div> -->
+
+        <!-- Categories / Tags (Optional) -->
+        <!-- <div class="blog-categories">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Tailoring</a></li>
+                    <li><a href="#">Home Décor</a></li>
+                    <li><a href="#">Fashion Tips</a></li>
+                    <li><a href="#">Embroidery</a></li>
+                </ul>
+            </div>
+        </section> -->
+
+
+    </main>
+    <footer>
+        <div class="footer-container">
+            <!-- Contact Information -->
+            <div class="footer-info">
+                <h4>Contact Me</h4>
+                <p>Email: <a href="mailto:your-email@example.com">bilabinaassibi@gmail.com</a></p>
+                <p>Phone: <a href="tel:+22606848250">+226 06 84 82 50</a></p>
+                <p>Address: Tingandogo, Ouagadougou, Burkina Faso</p>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="footer-social">
+                <h4>Follow Me</h4>
+                <ul>
+                    <li><a href="https://instagram.com" target="_blank" class="social-icon"><i
+                                class="fab fa-instagram fa-2x"></i></a></li>
+                    <li></li><a href="https://facebook.com" target="_blank" class="social-icon"><i
+                            class="fab fa-facebook fa-2x"></i></a></li>
+                    <li></li><a href="https://pinterest.com" target="_blank" class="social-icon"><i
+                            class="fab fa-twitter fa-2x"></i></a></li>
+                    <li></li><a href="https://pinterest.com" target="_blank" class="social-icon"><i
+                            class="fab fa-youtube fa-2x"></i></a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter Subscription -->
+            <div class="footer-newsletter">
+                <h4>Subscribe to My Newsletter</h4>
+                <form action="#" method="POST" class="newsletter-form">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Copyright Notice -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Assibi Creation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

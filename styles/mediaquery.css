@@ -1,0 +1,263 @@
+/* Mobile Styles for 480px breakpoint */
+
+@media (max-width: 480px) {
+
+    /* Responsive Design for Hero Section */
+    #hero h1 {
+        font-size: 2em;
+    }
+
+    #hero p {
+        font-size: 0.9em;
+    }
+
+    .cta-button {
+        padding: 10px 25px;
+    }
+
+    .social-links a {
+        font-size: 0.9em;
+    }
+
+    /* Responsive Design for About Me Section */
+    .about-text h2 {
+        font-size: 1.8em;
+    }
+
+    .about-text p {
+        font-size: 0.95em;
+    }
+
+    .skills ul li {
+        font-size: 0.9em;
+    }
+
+    .unique-approach {
+        font-size: 1em;
+    }
+
+    /* Responsive Design for Services */
+    #services h2 {
+        font-size: 2em;
+    }
+
+    #services p {
+        font-size: 1em;
+    }
+
+    .service-card h3 {
+        font-size: 1.4em;
+    }
+
+    .service-card p {
+        font-size: 0.9em;
+    }
+
+    .btn {
+        font-size: 0.9em;
+        padding: 8px 20px;
+    }
+
+    /* Responsive Design for Testimonial */
+    #testimonials h2 {
+        font-size: 1.8em;
+    }
+
+    .testimonial {
+        width: 220px;
+    }
+
+    /* Responsive Design for Portfolio */
+
+    #portfolio h2 {
+        font-size: 1.8em;
+    }
+
+    .overlay h3 {
+        font-size: 1.3em;
+    }
+
+    .overlay p {
+        font-size: 0.95em;
+    }
+
+    /* Responsive Design for Contact */
+    .contact-form-container input,
+    .contact-form-container textarea {
+        font-size: 0.9em;
+    }
+
+    .newsletter-container input {
+        width: 200px;
+    }
+
+    .footer-newsletter .newsletter-form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* Mobile Styles for 768px breakpoint */
+@media (max-width: 768px) {
+
+    /* Responsive Design for Navigation Bar */
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .navbar-hamburger {
+        display: flex;
+    }
+
+    .navbar-links a {
+        font-size: 1.2em;
+        padding: 15px;
+    }
+
+    .navbar-hamburger .line-1 {
+        transform: rotate(45deg) translateY(8px);
+    }
+
+    .navbar-hamburger .line-2 {
+        opacity: 0;
+    }
+
+    .navbar-hamburger .line-3 {
+        transform: rotate(-45deg) translateY(-8px);
+    }
+
+    /* Responsive Design for Hero Section */
+    #hero h1 {
+        font-size: 2.5em;
+    }
+
+    #hero p {
+        font-size: 1em;
+    }
+
+    .cta-button {
+        padding: 12px 30px;
+    }
+
+    .social-links a {
+        font-size: 1em;
+    }
+
+    /* Responsiver Design for Portfolio */
+
+    #portfolio h2 {
+        font-size: 2em;
+    }
+
+    .overlay h3 {
+        font-size: 1.5em;
+    }
+
+    .overlay p {
+        font-size: 1em;
+    }
+
+    /* Responsive Design for About Me Section */
+
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .profile-img {
+        max-width: 200px;
+        height: 200px;
+    }
+
+    .about-text h2 {
+        font-size: 2em;
+    }
+
+    .about-text p {
+        font-size: 1em;
+    }
+
+    .skills ul li {
+        font-size: 1em;
+    }
+
+    /* Responsive Design for Services */
+
+    .service-card h3 {
+        font-size: 1.6em;
+    }
+
+    .service-card p {
+        font-size: 0.95em;
+    }
+
+    .btn {
+        font-size: 1em;
+        padding: 8px 25px;
+    }
+}
+
+
+/* Responsive Design for Testimonial */
+
+#testimonials h2 {
+    font-size: 2em;
+}
+
+.testimonial {
+    width: 260px;
+}
+
+.testimonial-text {
+    font-size: 1em;
+}
+
+/* Responsive Design for Contact */
+
+#contact h2 {
+    font-size: 2em;
+}
+
+.contact-form-container,
+.newsletter-container {
+    padding: 30px;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    font-size: 0.9em;
+}
+
+.newsletter-container input {
+    width: 250px;
+}
+
+.subscribe-btn {
+    display: block;
+}
+
+/* Responsive Design for Footer */
+.footer-container {
+    flex-direction: column;
+    text-align: left;
+}
+
+.footer-info,
+.footer-social,
+.footer-newsletter {
+    flex: 1 1 100%;
+}
